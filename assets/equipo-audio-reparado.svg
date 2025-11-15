@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Equipo de audio reparado">
+  <rect width="600" height="400" rx="12" fill="#fff" />
+  <g transform="translate(30,40)">
+    <rect x="0" y="0" width="540" height="120" rx="8" fill="#ff7a59" opacity="0.95" />
+    <circle cx="100" cy="220" r="60" fill="#222" />
+    <circle cx="260" cy="220" r="60" fill="#222" />
+    <circle cx="420" cy="220" r="60" fill="#222" />
+    <text x="40" y="90" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#fff">Equipo de audio</text>
+  </g>
+</svg>

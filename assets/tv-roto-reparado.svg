@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Televisión reparada">
+  <rect width="600" height="400" rx="12" fill="#fff" />
+  <rect x="40" y="40" width="520" height="260" rx="8" fill="#0e2733" />
+  <g transform="translate(60,60)" fill="#fff">
+    <rect x="0" y="0" width="480" height="220" rx="6" fill="#0b3040" />
+    <text x="30" y="120" font-family="Arial, Helvetica, sans-serif" font-size="22">TV reparada</text>
+  </g>
+  <rect x="250" y="320" width="100" height="18" rx="8" fill="#222" />
+</svg>

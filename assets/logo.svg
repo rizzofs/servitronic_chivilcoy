@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="80" viewBox="0 0 400 80" role="img" aria-label="Servitronic logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff7a59"/>
+      <stop offset="1" stop-color="#ffd87a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="80" rx="8" fill="transparent" />
+  <g transform="translate(12,12)">
+    <circle cx="28" cy="28" r="28" fill="url(#g)" />
+    <g transform="translate(60,8)">
+      <text x="0" y="28" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#222">Servitronic</text>
+      <text x="0" y="52" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#666">Servicio Técnico - Audio • TV • Video</text>
+    </g>
+  </g>
+</svg>
