@@ -3,43 +3,30 @@
 
 /* Variables CSS - Premium Tech Theme */
 :root {
-    /* Core Colors - Deep Slate & Tech Blue */
     --bg-dark: #0b1120;
     --bg-card: rgba(30, 41, 59, 0.4);
     --bg-card-hover: rgba(30, 41, 59, 0.7);
-
-    /* Accents */
     --primary: #0ea5e9;
     --primary-dark: #0284c7;
     --secondary: #64748b;
     --accent: #38bdf8;
-
-    /* Text */
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
     --text-dark: #0f172a;
-
-    /* Gradients - Subtle & Professional */
     --gradient-main: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%);
     --gradient-surface: linear-gradient(180deg, rgba(30, 41, 59, 0.3) 0%, rgba(15, 23, 42, 0.3) 100%);
-
-    /* Effects */
     --glass-border: 1px solid rgba(255, 255, 255, 0.08);
     --glass-highlight: 1px solid rgba(255, 255, 255, 0.15);
     --glass-blur: blur(12px);
-
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
     --glow-subtle: 0 0 15px rgba(14, 165, 233, 0.15);
-
-    /* Layout */
     --container-width: 1200px;
     --header-height: 80px;
     --radius: 12px;
 }
 
-/* Reset & Base */
 * {
     margin: 0;
     padding: 0;
@@ -61,7 +48,6 @@ body {
         radial-gradient(circle at 85% 30%, rgba(99, 102, 241, 0.08), transparent 25%);
 }
 
-/* Typography */
 h1,
 h2,
 h3,
@@ -110,7 +96,6 @@ img {
     display: block;
 }
 
-/* Utilities */
 .container {
     width: 90%;
     max-width: var(--container-width);
@@ -163,7 +148,6 @@ img {
     border-color: var(--text-main);
 }
 
-/* Header */
 .header {
     position: fixed;
     top: 0;
@@ -276,7 +260,6 @@ img {
     cursor: pointer;
 }
 
-/* Hero Section */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -287,7 +270,6 @@ img {
     background: var(--bg-dark);
 }
 
-/* Tech Grid Animation */
 .hero::before {
     content: '';
     position: absolute;
@@ -355,7 +337,6 @@ img {
     gap: 1rem;
 }
 
-/* Services Section */
 .services {
     padding: 8rem 0;
 }
@@ -415,7 +396,6 @@ img {
     margin-bottom: 0;
 }
 
-/* Gallery Section */
 .gallery {
     padding: 8rem 0;
     background: rgba(0, 0, 0, 0.2);
@@ -452,7 +432,7 @@ img {
     left: 0;
     width: 100%;
     padding: 1.5rem;
-    background: linear-gradient(to top, rgba(11, 17, 32, 0.95), transparent);
+    background: linear-gradient(to top, rgba(11, 17, 32, 1) 0%, rgba(11, 17, 32, 0.95) 60%, transparent 100%);
     transform: translateY(100%);
     transition: transform 0.3s ease;
 }
@@ -462,18 +442,18 @@ img {
 }
 
 .overlay h4 {
-    color: var(--text-main);
+    color: #ffffff;
     margin-bottom: 0.25rem;
     font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .overlay p {
     font-size: 0.9rem;
     margin-bottom: 0;
-    color: var(--text-muted);
+    color: #e2e8f0;
 }
 
-/* About Section */
 .about {
     padding: 8rem 0;
 }
@@ -521,7 +501,6 @@ img {
     margin-bottom: 0;
 }
 
-/* FAQ Section */
 .faq {
     padding: 8rem 0;
     background: rgba(0, 0, 0, 0.2);
@@ -577,7 +556,6 @@ img {
     padding: 0 1.5rem 1.5rem;
 }
 
-/* Contact Section */
 .contact {
     padding: 8rem 0;
 }
@@ -627,7 +605,6 @@ img {
     filter: grayscale(100%) invert(92%) contrast(83%);
 }
 
-/* Footer */
 .footer {
     padding: 3rem 0;
     background: #020617;
@@ -664,7 +641,6 @@ img {
     transform: translateY(-2px);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     h1 {
         font-size: 2.5rem;
@@ -674,7 +650,6 @@ img {
         font-size: 2rem;
     }
 
-    /* Sidebar Mobile Menu */
     .header .nav-menu {
         position: fixed;
         top: 0;
@@ -719,7 +694,6 @@ img {
         bottom: 0.5rem;
     }
 
-    /* Overlay oscuro cuando el menú está abierto */
     .header .nav-menu::before {
         content: '';
         position: fixed;
@@ -763,7 +737,6 @@ img {
     }
 }
 
-/* Animations */
 .reveal {
     opacity: 0;
     transform: translateY(20px);
