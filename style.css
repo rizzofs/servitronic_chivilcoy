@@ -178,6 +178,11 @@ img {
     color: var(--primary);
     font-size: 1.5rem;
 }
+.logo-img {
+    height: 50px;
+    width: auto;
+}
+
 
 .text-container {
     display: flex;
