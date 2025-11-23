@@ -4,9 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servitronic | Servicio Técnico Premium en Chivilcoy</title>
+    <meta name="theme-color" content="#dc2626">
+    
+    <!-- Primary Meta Tags -->
+    <title>Servitronic Chivilcoy | Reparación de TV, Audio y Video | 25 Años de Experiencia</title>
+    <meta name="title" content="Servitronic Chivilcoy | Reparación de TV, Audio y Video | 25 Años de Experiencia">
     <meta name="description"
-        content="Servicio técnico especializado en reparación de Audio, TV y Video en Chivilcoy. Expertos en pantallas, controles remotos y más.">
+        content="Servicio técnico especializado en reparación de Audio, TV y Video en Chivilcoy. Expertos en pantallas, controles remotos y más. 25 años de experiencia.">
+    <link rel="canonical" href="https://rizzofs.github.io/servitronic_chivilcoy/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rizzofs.github.io/servitronic_chivilcoy/">
+    <meta property="og:title" content="Servitronic Chivilcoy | Reparación de TV, Audio y Video | 25 Años de Experiencia">
+    <meta property="og:description" content="Servicio técnico especializado en reparación de Audio, TV y Video en Chivilcoy. Expertos en pantallas, controles remotos y más. 25 años de experiencia.">
+    <meta property="og:image" content="https://rizzofs.github.io/servitronic_chivilcoy/assets/images/SERVITRONIC%20OG.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="es_AR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rizzofs.github.io/servitronic_chivilcoy/">
+    <meta property="twitter:title" content="Servitronic Chivilcoy | Reparación de TV, Audio y Video | 25 Años de Experiencia">
+    <meta property="twitter:description" content="Servicio técnico especializado en reparación de Audio, TV y Video en Chivilcoy. Expertos en pantallas, controles remotos y más. 25 años de experiencia.">
+    <meta property="twitter:image" content="https://rizzofs.github.io/servitronic_chivilcoy/assets/images/SERVITRONIC%20OG.png">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -18,15 +41,15 @@
 
     <header class="header" role="banner">
         <div class="container">
-            <div class="logo">
+            <a href="#inicio" class="logo">
                 <img src="assets/LogoSvgSinFondo.svg" alt="Servitronic Logo" class="logo-img">
                 <div class="text-container">
                     <span class="main-title">SERVITRONIC</span>
                     <span class="subtitle">Chivilcoy</span>
                 </div>
-            </div>
+            </a>
 
-            <nav class="nav-menu">
+            <nav class="nav-menu" id="nav-menu" role="navigation" aria-label="Menú principal">
                 <ul>
                     <li><a href="#inicio" class="active">Inicio</a></li>
                     <li><a href="#servicios">Servicios</a></li>
@@ -37,11 +60,9 @@
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
-            <a href="https://wa.me/5492346304064" class="whatsapp-btn-header" target="_blank">
-                <i class="fab fa-whatsapp"></i> WhatsApp
-            </a>
-            <button class="menu-toggle" aria-label="Abrir menú">
+            <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
                 <i class="fas fa-bars"></i>
+                <i class="fas fa-times" style="display: none;"></i>
             </button>
         </div>
     </header>
@@ -55,10 +76,9 @@
                     técnico multimarcas especializado en <span class="highlight-services">Audio, TV y Video, Microondas
                         y Controles Remotos</span>.</p>
                 <div class="hero-buttons">
-                    <a href="#contacto" class="btn btn-primary">Solicitar Presupuesto <i
+                    <a href="https://wa.me/5492346304064" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-whatsapp"></i> Solicitar Presupuesto <i
                             class="fas fa-arrow-right"></i></a>
-                    <a href="https://wa.me/5492346304064" class="btn btn-secondary" target="_blank"><i
-                            class="fab fa-whatsapp"></i> Consultar Ahora</a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat-item">
@@ -195,7 +215,7 @@
                 </ul>
 
                 <div class="android-tv-cta">
-                    <a href="https://wa.me/5492346304064" class="btn btn-primary" target="_blank">
+                    <a href="https://wa.me/5492346304064" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-whatsapp"></i> Consultar por Android TV
                     </a>
                     <p class="cta-note">Dale una nueva vida a tu televisor sin gastar de más</p>
@@ -209,42 +229,42 @@
             <h2>Resultados <span class="text-gradient">Reales</span></h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="assets/images/Tv1.jpg" alt="Reparación de Smart TV">
+                    <img src="assets/images/Tv1.jpg" alt="Reparación de Smart TV" loading="lazy">
                     <div class="overlay">
                         <h4>Smart TV</h4>
                         <p>Reparación de pantallas y placas</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/Reparacion.jpg" alt="Mesa de trabajo electrónica">
+                    <img src="assets/images/Reparacion.jpg" alt="Mesa de trabajo electrónica" loading="lazy">
                     <div class="overlay">
                         <h4>Laboratorio</h4>
                         <p>Diagnóstico profesional</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/Tester.jpg" alt="Instrumental de medición">
+                    <img src="assets/images/Tester.jpg" alt="Instrumental de medición" loading="lazy">
                     <div class="overlay">
                         <h4>Precisión</h4>
                         <p>Herramientas de última generación</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/controles.jpg" alt="Controles Remotos">
+                    <img src="assets/images/controles.jpg" alt="Controles Remotos" loading="lazy">
                     <div class="overlay">
                         <h4>Accesorios</h4>
                         <p>Venta y reparación de controles</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/chromecast.jpg" alt="Dispositivos de Streaming">
+                    <img src="assets/images/chromecast.jpg" alt="Dispositivos de Streaming" loading="lazy">
                     <div class="overlay">
                         <h4>Streaming</h4>
                         <p>Configuración de dispositivos</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/protector tv2.jpg" alt="Protección de equipos">
+                    <img src="assets/images/protector tv2.jpg" alt="Protección de equipos" loading="lazy">
                     <div class="overlay">
                         <h4>Protección</h4>
                         <p>Cuidado y mantenimiento</p>
@@ -344,7 +364,7 @@
                         <i class="fab fa-whatsapp"></i>
                         <div>
                             <h3>Escribinos</h3>
-                            <p><a href="https://wa.me/5492346304064" target="_blank">+54 9 2346
+                            <p><a href="https://wa.me/5492346304064" target="_blank" rel="noopener noreferrer">+54 9 2346
                                     304064</a></p>
                         </div>
                     </div>
@@ -386,36 +406,67 @@
         <div class="container">
             <p>&copy; 2025 Servitronic. Tecnología y Servicio.</p>
             <div class="social-links">
-                <a href="https://www.facebook.com/Servitronic2016chivilcoy" target="_blank" aria-label="Facebook"><i
+                <a href="https://www.facebook.com/Servitronic2016chivilcoy" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i
                         class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/servitronic.chivilcoy/" target="_blank" aria-label="Instagram"><i
+                <a href="https://www.instagram.com/servitronic.chivilcoy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i
                         class="fab fa-instagram"></i></a>
             </div>
         </div>
     </footer>
 
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5492346304064" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Botón Volver Arriba -->
+    <button class="scroll-to-top" aria-label="Volver arriba" title="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <script>
-        // Mobile Menu
+        // Mobile Menu con accesibilidad mejorada
         const menuToggle = document.querySelector('.menu-toggle');
         const navMenu = document.querySelector('.nav-menu');
+        const menuIcon = menuToggle.querySelector('i');
+
+        function updateMenuState(isOpen) {
+            navMenu.classList.toggle('active', isOpen);
+            menuToggle.setAttribute('aria-expanded', isOpen);
+            menuToggle.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
+            menuToggle.classList.toggle('active', isOpen);
+            
+            // Cambiar iconos
+            const barsIcon = menuToggle.querySelector('.fa-bars');
+            const timesIcon = menuToggle.querySelector('.fa-times');
+            if (barsIcon && timesIcon) {
+                if (isOpen) {
+                    barsIcon.style.display = 'none';
+                    timesIcon.style.display = 'block';
+                } else {
+                    barsIcon.style.display = 'block';
+                    timesIcon.style.display = 'none';
+                }
+            }
+        }
 
         menuToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
+            const isOpen = navMenu.classList.contains('active');
+            updateMenuState(!isOpen);
         });
 
         // Close menu on link click
         document.querySelectorAll('.nav-menu a').forEach(link => {
             link.addEventListener('click', () => {
-                navMenu.classList.remove('active');
+                updateMenuState(false);
             });
         });
 
         // Close menu when clicking outside
         document.addEventListener('click', (e) => {
             if (navMenu.classList.contains('active')) {
-                // Check if click is outside the menu and not on the toggle button
                 if (!navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
-                    navMenu.classList.remove('active');
+                    updateMenuState(false);
                 }
             }
         });
@@ -424,7 +475,7 @@
         document.addEventListener('touchstart', (e) => {
             if (navMenu.classList.contains('active')) {
                 if (!navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
-                    navMenu.classList.remove('active');
+                    updateMenuState(false);
                 }
             }
         });
@@ -459,13 +510,19 @@
         // Active Link Highlight
         const sections = document.querySelectorAll('section');
         const navLinks = document.querySelectorAll('.nav-menu a');
+        const scrollToTopBtn = document.querySelector('.scroll-to-top');
+        const whatsappFloat = document.querySelector('.whatsapp-float');
+        let lastScrollY = window.scrollY;
+        let ticking = false;
 
-        window.addEventListener('scroll', () => {
+        function updateOnScroll() {
+            const scrollY = window.scrollY;
             let current = '';
+            
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
                 const sectionHeight = section.clientHeight;
-                if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                if (scrollY >= (sectionTop - sectionHeight / 3)) {
                     current = section.getAttribute('id');
                 }
             });
@@ -476,10 +533,50 @@
                     link.classList.add('active');
                 }
             });
-        });
 
-        // Animated Counter Stats
+            // Mostrar/ocultar botón scroll to top
+            if (scrollToTopBtn) {
+                if (scrollY > 300) {
+                    scrollToTopBtn.classList.add('visible');
+                } else {
+                    scrollToTopBtn.classList.remove('visible');
+                }
+            }
+
+            // Ocultar/mostrar WhatsApp al hacer scroll
+            if (whatsappFloat) {
+                if (scrollY > lastScrollY && scrollY > 200) {
+                    // Scrolling down
+                    whatsappFloat.classList.add('hidden');
+                } else {
+                    // Scrolling up
+                    whatsappFloat.classList.remove('hidden');
+                }
+            }
+
+            lastScrollY = scrollY;
+            ticking = false;
+        }
+
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                window.requestAnimationFrame(updateOnScroll);
+                ticking = true;
+            }
+        }, { passive: true });
+
+        // Scroll to top button
+        if (scrollToTopBtn) {
+            scrollToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // Animated Counter Stats con formato mejorado
         function formatNumber(num) {
+            if (num >= 1000) {
+                return (num / 1000).toFixed(num >= 10000 ? 0 : 1) + 'K';
+            }
             return num.toLocaleString('es-AR');
         }
 
@@ -521,65 +618,86 @@
             statsObserver.observe(heroStats);
         }
 
-        // Gallery Carousel Auto-scroll (Mobile only)
+        // Gallery Carousel Auto-scroll (Mobile only) - Mejorado para recalcular en resize
         const galleryGrid = document.querySelector('.gallery-grid');
-        if (galleryGrid && window.innerWidth <= 768) {
-            let isScrolling = false;
-            let scrollInterval;
-            let userInteracting = false;
-            let interactionTimeout;
+        let galleryScrollInterval = null;
+        let isScrolling = false;
+        let userInteracting = false;
+        let interactionTimeout;
 
-            function autoScroll() {
-                if (userInteracting || isScrolling) return;
-
-                const scrollWidth = galleryGrid.scrollWidth;
-                const clientWidth = galleryGrid.clientWidth;
-                const scrollLeft = galleryGrid.scrollLeft;
-                const itemWidth = galleryGrid.querySelector('.gallery-item').offsetWidth + 16; // 16px gap
-
-                // Si está al final, volver al inicio
-                if (scrollLeft + clientWidth >= scrollWidth - 10) {
-                    galleryGrid.scrollTo({ left: 0, behavior: 'smooth' });
-                } else {
-                    // Avanzar al siguiente item
-                    const nextScroll = Math.ceil((scrollLeft + itemWidth) / itemWidth) * itemWidth;
-                    galleryGrid.scrollTo({ left: nextScroll, behavior: 'smooth' });
-                }
+        function initGalleryAutoScroll() {
+            if (galleryScrollInterval) {
+                clearInterval(galleryScrollInterval);
+                galleryScrollInterval = null;
             }
 
-            // Detectar interacción del usuario
-            galleryGrid.addEventListener('touchstart', () => {
-                userInteracting = true;
-                clearTimeout(interactionTimeout);
-                interactionTimeout = setTimeout(() => {
-                    userInteracting = false;
-                }, 3000);
-            });
+            if (galleryGrid && window.innerWidth <= 768) {
+                function autoScroll() {
+                    if (userInteracting || isScrolling) return;
 
-            galleryGrid.addEventListener('scroll', () => {
-                isScrolling = true;
-                clearTimeout(interactionTimeout);
-                setTimeout(() => {
-                    isScrolling = false;
-                }, 100);
-            });
+                    const scrollWidth = galleryGrid.scrollWidth;
+                    const clientWidth = galleryGrid.clientWidth;
+                    const scrollLeft = galleryGrid.scrollLeft;
+                    const itemWidth = galleryGrid.querySelector('.gallery-item')?.offsetWidth + 16 || 0;
 
-            // Iniciar auto-scroll cada 4 segundos
-            scrollInterval = setInterval(autoScroll, 4000);
+                    if (!itemWidth) return;
 
-            // Pausar cuando la sección no es visible
-            const galleryObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        scrollInterval = setInterval(autoScroll, 4000);
+                    // Si está al final, volver al inicio
+                    if (scrollLeft + clientWidth >= scrollWidth - 10) {
+                        galleryGrid.scrollTo({ left: 0, behavior: 'smooth' });
                     } else {
-                        clearInterval(scrollInterval);
+                        // Avanzar al siguiente item
+                        const nextScroll = Math.ceil((scrollLeft + itemWidth) / itemWidth) * itemWidth;
+                        galleryGrid.scrollTo({ left: nextScroll, behavior: 'smooth' });
                     }
-                });
-            }, { threshold: 0.3 });
+                }
 
-            galleryObserver.observe(galleryGrid.closest('.gallery'));
+                // Detectar interacción del usuario
+                galleryGrid.addEventListener('touchstart', () => {
+                    userInteracting = true;
+                    clearTimeout(interactionTimeout);
+                    interactionTimeout = setTimeout(() => {
+                        userInteracting = false;
+                    }, 3000);
+                });
+
+                galleryGrid.addEventListener('scroll', () => {
+                    isScrolling = true;
+                    clearTimeout(interactionTimeout);
+                    setTimeout(() => {
+                        isScrolling = false;
+                    }, 100);
+                });
+
+                // Pausar cuando la sección no es visible
+                const galleryObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            if (!galleryScrollInterval) {
+                                galleryScrollInterval = setInterval(autoScroll, 4000);
+                            }
+                        } else {
+                            if (galleryScrollInterval) {
+                                clearInterval(galleryScrollInterval);
+                                galleryScrollInterval = null;
+                            }
+                        }
+                    });
+                }, { threshold: 0.3 });
+
+                galleryObserver.observe(galleryGrid.closest('.gallery'));
+            }
         }
+
+        // Inicializar y recalcular en resize
+        initGalleryAutoScroll();
+        let resizeTimeout;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                initGalleryAutoScroll();
+            }, 250);
+        });
     </script>
 </body>
 
